@@ -1,0 +1,99 @@
+/* NavBar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 20px;
+  background-color: #ffffff;
+  padding: 16px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0px 64px;
+  margin: 0;
+}
+
+.navbar-menu li {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  color: #121212;
+
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar-menu a:hover {
+  color: #0088a9;
+}
+
+/* User initials circle */
+.user-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #004f68;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Right-side buttons */
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0px 64px;
+}
+
+.btn-signin {
+  background-color: transparent;
+  color: #004f68;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.btn-signin:hover {
+  background-color: #004f68;
+  color: white;
+}
+
+.btn-add-property {
+  background-color: #004f68;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-add-property:hover {
+  background-color: #006d8a;
+}
+
+/* Icon styles */
+.fas {
+  font-size: 14px;
+}
