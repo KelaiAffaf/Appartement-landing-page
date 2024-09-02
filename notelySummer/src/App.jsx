@@ -27,6 +27,10 @@ import Layout from "./Layout";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import Catalog from "./Pages/Catalog";
+import Account from "./Pages/Account";
+import Vendor from "./Pages/Vendor";
+import Blog from "./Pages/Blog";
 import NotFound from "./Pages/NotFound";
 
 const App = () => {
@@ -36,6 +40,11 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="catalog" element={<Catalog />} />
+        <Route path="account" element={<Account />} />
+        <Route path="vendor" element={<Vendor />} />
+        <Route path="blog" element={<Blog />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
